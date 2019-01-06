@@ -37,6 +37,9 @@ is_calculated_aes <- function(aesthetics) {
   vapply(aesthetics, is_calculated, logical(1), USE.NAMES = FALSE)
 }
 
+####useless change
+
+
 is_calculated <- function(x) {
   if (is.atomic(x)) {
     FALSE
